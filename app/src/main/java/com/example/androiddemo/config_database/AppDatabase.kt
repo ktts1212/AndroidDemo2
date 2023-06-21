@@ -8,6 +8,8 @@ import com.example.androiddemo.Dao.NoteDao
 import com.example.androiddemo.MainActivity
 import com.example.androiddemo.entities.Note
 
+todo：包名字不要用下划线，直接小写字母拼接就好
+
 @Database(version = 1, entities = [Note::class])
 abstract class AppDatabase :RoomDatabase(){
     abstract fun noteDao():NoteDao
