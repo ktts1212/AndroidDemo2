@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".childFragments.FollowFragment">
-
+TODO：XML的代码也需要格式化，控件与控件之间用空行分隔
 <androidx.recyclerview.widget.RecyclerView
     android:layout_width="match_parent"
     android:layout_height="match_parent"
