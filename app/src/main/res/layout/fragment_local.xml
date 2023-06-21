@@ -5,6 +5,7 @@
     android:layout_height="match_parent"
     tools:context=".childFragments.LocalFragment">
 
+    TODO：像下面没用的注释删掉他
     <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="match_parent"
