@@ -5,6 +5,7 @@
     android:layout_height="match_parent"
     tools:context=".childFragments.LocalFragment">
 
+<<<<<<< HEAD
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/local_recycler_view"
         android:layout_width="match_parent"
@@ -12,3 +13,13 @@
 
 
 </FrameLayout>
+=======
+    TODO：像下面没用的注释删掉他
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/hello_blank_fragment" />
+
+</FrameLayout>
+>>>>>>> bffdb80ef3f495591b81abeabae79cb55390cb4a

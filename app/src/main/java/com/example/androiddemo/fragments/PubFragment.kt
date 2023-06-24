@@ -1,5 +1,6 @@
 package com.example.androiddemo.fragments
 
+<<<<<<< HEAD
 import android.Manifest
 import android.annotation.SuppressLint
 import android.annotation.TargetApi
@@ -14,12 +15,16 @@ import android.os.Build
 import android.os.Bundle
 import android.provider.DocumentsContract
 import android.provider.MediaStore
+=======
+import android.os.Bundle
+>>>>>>> bffdb80ef3f495591b81abeabae79cb55390cb4a
 import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
+<<<<<<< HEAD
 import androidx.activity.ComponentActivity
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.core.content.ContextCompat
@@ -52,18 +57,31 @@ class PubFragment : Fragment() {
 
     private lateinit var binding: FragmentPubBinding
 
+=======
+import androidx.appcompat.app.AlertDialog
+import com.example.androiddemo.databinding.FragmentPubBinding
+import com.example.androiddemo.utils.MyApplicaiton
+
+class PubFragment : Fragment() {
+    private lateinit var binding: FragmentPubBinding
+>>>>>>> bffdb80ef3f495591b81abeabae79cb55390cb4a
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
+<<<<<<< HEAD
         binding = FragmentPubBinding.inflate(layoutInflater, container, false)
+=======
+        binding= FragmentPubBinding.inflate(layoutInflater,container,false)
+>>>>>>> bffdb80ef3f495591b81abeabae79cb55390cb4a
         return binding.root
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         binding.imageInput.setOnClickListener {
+<<<<<<< HEAD
             if (isGranted == 0) {
                 checkPermissions()
             }
@@ -136,10 +154,26 @@ class PubFragment : Fragment() {
                     Log.d("AAAAAA", note.tag)
                     Log.d("AAAAAAA", note.author)
                 }
+=======
+            Log.d("AAAAAAA","you clicked me")
+            AlertDialog.Builder(MyApplicaiton.context).apply {
+                setTitle("请选择图片")
+                setMessage("请选择插入图片方式")
+                setCancelable(false)
+                setPositiveButton("拍照"){
+                    dialog,which->
+
+                }
+                setNegativeButton("相册"){
+                    dialog,which->
+                }
+                show()
+>>>>>>> bffdb80ef3f495591b81abeabae79cb55390cb4a
             }
         }
     }
 
+<<<<<<< HEAD
     fun checkPermissions() {
         if (ContextCompat.checkSelfPermission(
                 MainApplicaiton.context,
@@ -312,4 +346,6 @@ class PubFragment : Fragment() {
         displayImage(imagePath)
     }
 
+=======
+>>>>>>> bffdb80ef3f495591b81abeabae79cb55390cb4a
 }

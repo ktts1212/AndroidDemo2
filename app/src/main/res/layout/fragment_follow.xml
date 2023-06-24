@@ -5,6 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".childFragments.FollowFragment">
+<<<<<<< HEAD
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/follow_recycler_view"
@@ -12,3 +13,12 @@
         android:layout_height="match_parent" />
 
 </LinearLayout>
+=======
+TODO：XML的代码也需要格式化，控件与控件之间用空行分隔
+<androidx.recyclerview.widget.RecyclerView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/follow_recycler_view"/>
+    
+</LinearLayout>
+>>>>>>> bffdb80ef3f495591b81abeabae79cb55390cb4a

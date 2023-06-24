@@ -1,19 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white">
+=======
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+>>>>>>> bffdb80ef3f495591b81abeabae79cb55390cb4a
 
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/tab_header"
         android:layout_width="match_parent"
         android:layout_height="50dp"
+<<<<<<< HEAD
         app:layout_constraintBottom_toTopOf="@id/view_paper"
         app:layout_constraintStart_toStartOf="parent"
         app:tabGravity="fill"
         app:tabMode="fixed"
         app:tabTextAppearance="@style/TabLayoutTextStyle" />
+=======
+        app:tabTextAppearance="@style/TabLayoutTextStyle"
+        app:layout_constraintBottom_toTopOf="@id/view_paper"
+        app:layout_constraintStart_toStartOf="parent"
+        app:tabGravity="fill"
+        app:tabMode="fixed" />
+
+>>>>>>> bffdb80ef3f495591b81abeabae79cb55390cb4a
 
     <androidx.viewpager2.widget.ViewPager2
         android:id="@+id/view_paper"
@@ -22,6 +42,10 @@
         android:layout_marginTop="50dp"
         android:saveEnabled="false"
         app:layout_constraintStart_toStartOf="parent"
+<<<<<<< HEAD
         app:layout_constraintTop_toBottomOf="@id/tab_header" />
+=======
+        app:layout_constraintTop_toBottomOf="@id/tab_header"/>
+>>>>>>> bffdb80ef3f495591b81abeabae79cb55390cb4a
 
 </androidx.constraintlayout.widget.ConstraintLayout>

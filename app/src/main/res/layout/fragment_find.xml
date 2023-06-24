@@ -7,8 +7,14 @@
     tools:context=".childFragments.FindFragment">
 
     <androidx.recyclerview.widget.RecyclerView
+<<<<<<< HEAD
         android:id="@+id/find_recycler_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
+=======
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/find_recycler_view"/>
+>>>>>>> bffdb80ef3f495591b81abeabae79cb55390cb4a
 
 </LinearLayout>

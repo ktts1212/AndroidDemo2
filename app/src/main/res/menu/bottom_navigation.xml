@@ -2,6 +2,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/home"
+<<<<<<< HEAD
         android:icon="@drawable/ic_home"
         android:title="首页" />
 
@@ -14,4 +15,18 @@
         android:id="@+id/my"
         android:icon="@drawable/ic_my"
         android:title="我的" />
+=======
+        android:title="首页"
+        android:icon="@drawable/ic_home"/>
+
+    <item
+        android:id="@+id/publish"
+        android:title="发布"
+        android:icon="@drawable/pub"/>
+
+    <item
+        android:id="@+id/my"
+        android:title="我的"
+        android:icon="@drawable/ic_my"/>
+>>>>>>> bffdb80ef3f495591b81abeabae79cb55390cb4a
 </menu>

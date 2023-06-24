@@ -7,23 +7,43 @@
     tools:context=".MainActivity">
 
     <FrameLayout
+<<<<<<< HEAD
         android:id="@+id/fragment_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginBottom="50dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+=======
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragment_container"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/bottmo_navigation_view"/>
+
+>>>>>>> bffdb80ef3f495591b81abeabae79cb55390cb4a
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottmo_navigation_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/cardview_light_background"
+<<<<<<< HEAD
         app:itemIconTint="@color/color_selector"
         app:itemTextColor="@color/color_selector"
         app:labelVisibilityMode="labeled"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:menu="@menu/bottom_navigation" />
+=======
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_navigation"
+        app:labelVisibilityMode="labeled"
+        app:itemTextColor="@color/color_selector"
+        app:itemIconTint="@color/color_selector"
+        />
+>>>>>>> bffdb80ef3f495591b81abeabae79cb55390cb4a
 
 </androidx.constraintlayout.widget.ConstraintLayout>
